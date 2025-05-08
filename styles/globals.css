@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-white font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-wide;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  .btn {
+    @apply px-6 py-2 font-medium transition-colors rounded-md;
+  }
+  .btn-primary {
+    @apply text-background bg-mint hover:bg-opacity-90;
+  }
+  .card {
+    @apply p-4 overflow-hidden rounded-lg;
+  }
+} 
