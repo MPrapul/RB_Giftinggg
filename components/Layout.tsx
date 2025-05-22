@@ -16,12 +16,18 @@ export default function Layout({
 }: LayoutProps) {
   return (
     <>
-      <Head>
-        <title>{title}</title>
+      <head>
+        <title>Layout.tsx - SEO Optimized Content for Better Rankings</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      
+  <meta name="description" content="Discover Layout.tsx - Optimized for search engines with comprehensive information and solutions. Learn about layout tsx, components, layout tsx and more.">
+
+  <meta name="keywords" content="layout tsx, components, layout tsx, seo optimization, search engine visibility, website improvement">
+
+  <link rel="canonical" href="https://example.com/components/Layout.tsx">
+</head>
       
       <div className="flex min-h-screen bg-background text-white">
         <Sidebar />
